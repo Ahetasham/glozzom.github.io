@@ -1,0 +1,207 @@
+$font-size:50px;
+$dark-overlay:rgba(0,0,0,0.5);
+
+.navbar{
+  background: #000000;
+
+}
+
+
+.carousel-item{
+  height:450px;
+  .carousel-caption{
+    margin-bottom:7rem;
+  }
+}
+
+.carousel-img-1{
+  background:url('../img/image1.jpeg');
+  background-size:cover;
+}
+
+.carousel-img-2{
+  background:url('../img/image2.jpeg');
+  background-size:cover;
+}
+
+.carousel-img-3{
+  background:url('../img/image3.jpeg');
+  background-size:cover;
+}
+
+#homeicon{
+  .fa{
+    font-size:$font-size;
+  }
+
+.col-md-4{
+  margin:20px 0px;
+  display:block;
+}
+}
+
+#getstarted{
+  background:url('../img/bg1.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:250px;
+  background-attachment: fixed;
+  position:relative;
+
+  .dark-overlay{
+    background:$dark-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+
+.col-12{
+  margin-top:64px;
+}
+
+}
+
+
+#home-video{
+
+  background:url('../img/people.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:250px;
+  background-attachment: fixed;
+  position:relative;
+
+  .dark-overlay{
+
+    background:$dark-overlay;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+    .fa{
+      font-size:60px;
+
+    }
+
+  }
+}
+
+#gallery{
+img{
+min-height:200px;
+}
+}
+
+#copyright{
+  background:#000000;
+p{
+  margin-bottom:0;
+  font-size:18px;
+}
+
+
+}
+
+#pageheader{
+     background:url(../img/image1.jpeg);
+     background-size:cover;
+     height:200px;
+     background-attachment:fixed;
+
+}
+
+#about-info{
+  img{
+    width:350px;
+    height:350px;
+  }
+}
+
+#icon-boxes{
+
+  .fa{
+    font-size:$font-size;
+  }
+}
+
+#testimonial{
+
+  .slick-prev::before,
+  .slick-next::before
+  {
+  color:#000;
+  }
+}
+
+#services-pageheader{
+     background:url(../img/image2.jpeg);
+     background-size:cover;
+     height:200px;
+     background-attachment:fixed;
+
+}
+
+#blog-pageheader{
+     background:url(../img/image5.jpeg);
+     background-size:cover;
+     height:200px;
+     background-attachment:fixed;
+
+}
+
+#contact-pageheader{
+     background:url(../img/image3.jpeg);
+     background-size:cover;
+     height:200px;
+     background-attachment:fixed;
+
+}
+
+
+
+@media(max-width:575px){
+  #showcase{
+    .carousel-caption{
+      margin-bottom: 5rem;
+
+      #head-3{
+        font-size:30px;
+        display:inline;
+        margin-bottom:0;
+      }
+
+    h2{
+      font-size:40px;
+    }
+    }
+  }
+#getstarted{
+  min-height:300px;
+}
+}
+
+@media(max-width:400px){
+#getstarted{
+  min-height:420px;
+}
+}
+
+#gallery{
+img{
+
+  }
+}
+
+@media(max-width:320px){
+#showcase{
+  .carousel-item{
+      margin-top:20px;
+
+  }
+
+}
+}
